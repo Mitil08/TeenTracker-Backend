@@ -18,7 +18,7 @@ const app = express();
 
 app.use(helmet());
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'https://teen-tracker-frontend-tau.vercel.app',
+  origin: true,
   credentials: true,
 }));
 app.use(express.json({ limit: '1mb' }));
