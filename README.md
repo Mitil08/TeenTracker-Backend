@@ -6,6 +6,11 @@ A full-stack web application for teenagers and students to track spending, manag
 
 This app is built as a React frontend + Express backend with JWT auth and Supabase-ready data access. It is designed to be easy to understand, responsive on mobile, and suitable for demo use.
 
+## Deployed backend
+
+- API base URL: https://teentracker-backend-1.onrender.com
+- Health check: https://teentracker-backend-1.onrender.com/api/health
+
 ## Features
 
 - User registration and login
